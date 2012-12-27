@@ -15,7 +15,7 @@ public class MinesweeperGame
 		if (input.equals("b"))
 			board = new MinesweeperBoard(9, 9, 10);
 		else if (input.equals("i"))
-			board = new MinesweeperBoard(16, 16, 40);
+			board = new MinesweeperBoard(16, 16, 40); //comment
 		else if (input.equals("e"))
 			board = new MinesweeperBoard(30, 16, 99);
 		else
